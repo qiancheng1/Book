@@ -1,0 +1,15 @@
+./jenkins.sh --variant eng \
+--project-build-name ZB500TL_CMCC \
+--save-type dailybuild \
+--project-name E296L \
+--iner-ver ASUS_X00KD_CN_V1.0B23 \
+--outer-ver CN_Phone-14.00.1708.23-20170831 \
+--incre-ver CN_X00K-14.00.1708.23-20170831 \
+--code-url git@10.0.30.8:GR6737M_65_A_N_ASUS_SW3/tools/manifest \
+--code-branch PDU3_Stable_Mass_ASUS_X00KD_CN_V1.0B09_BRH \
+--code-xml default.xml \
+--otapackage 'true' \
+--paste-ver-fota1 'preofficial_version\E296L\CMCC\ASUS_X00KD_CN_V1.0B23\full_ZB500TL-target_files-1505191688.zip' \
+--paste-ver-fota2 'preofficial_version\E296L\CMCC\ASUS_X00KD_CN_V1.0B24\full_ZB500TL-target_files-1505191688.zip' \
+--paste-ver-fota3 'preofficial_version\E296L\CMCC\ASUS_X00KD_CN_V1.0B25\full_ZB500TL-target_files-1505209279.zip' \
+--future-ver-fota 'preofficial_version\E296L\CMCC\ASUS_X00KD_CN_V1.0B26\full_ZB500TL-target_files-1505235638.zip'
